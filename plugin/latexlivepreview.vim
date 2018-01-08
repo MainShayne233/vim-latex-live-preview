@@ -21,9 +21,9 @@ if v:version < 700
 endif
 
 " Check whether this script is already loaded
-if exists("g:loaded_vim_live_preview")
-    finish
-endif
+"if exists("g:loaded_vim_live_preview")
+"    finish
+"endif
 let g:loaded_vim_live_preview = 1
 
 " Check mkdir feature
